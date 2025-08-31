@@ -1,26 +1,24 @@
+
 ![Header](/IMG/1.png)
-<a href="https://github.com/YTFort/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/YTFort/24-Aternos" alt="GitHub stars"/></a>
-<a href="https://github.com/YTFort/24-Aternos"><img src="https://badgen.net/github/watchers/YTFort/24-Aternos" alt="GitHub watchers"/></a>
-<a href="https://github.com/YTFort/24-Aternos"><img src="https://badgen.net/github/forks/YTFort/24-Aternos" alt="GitHub forks"/></a>
-<a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos" alt="GitHub download"/></a>
-<a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos/24-Aternos" alt="GitHub download"/></a>
-# `24 Aternos`
-### Это бот который не позволяет выключаться вашему серверу minecraft на [Aternos](https://aternos.org) хостинге.
-##### Бот полностью настраивается, управляется через игровой чат на сервере, имеет 2 версии для ваших нужд.
+<a href="https://github.com/GooDHous/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos" alt="GitHub stars"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
+
+# `24 Aternos Reworked`
+### Это бот, который не позволяет вашему майнкрафт серверу на хостинге [Aternos](https://aternos.org) отключаться.
+##### Бот полностью настраивается, управляется через игровой чат на сервере.
 
 ## `Контакты создателя`
-- [Discord](https://discord.gg/bjgpVAxgyE)
-- [Youtube](https://youtube.com/c/fortcote)
-- [Telegram](https://t.me/FortcoteTG)
+- [Discord](https://discord.gg/PAm52zgFAF)
 
 ## `Переводы`
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [Русский](README_RU.md) |
 |-------------------------|----------------------------|
 
-## `Дисклеймер`
-> Данный бот был создан в образовательных целях, только вы несёте всю ответственность за свой сервер!
+## `Отказ от ответственности`
+> Данный бот создан в образовательных целях и не призывает вас его использовать. Вы несете единоличную ответственность за свой сервер!
 
- - Вы можете использовать исходный код в своих проектах (только желательно предоставить ссылку на меня ;) )
+ - Вы можете использовать исходный код в своих проектах (желательно со ссылкой на меня ;) )
 
 ## `Поддерживаемые ОС`
 
@@ -28,36 +26,25 @@
  * Linux ✅
  * Mac ✅
 
-## `Функции`
+## `Возможности`
 
- * Поддерживает Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 и 1.20.
- * Анти-АФК
- * управление через игровой чат
- * авто респавн
- * авто переподключение
- * интерфейс (*python*)
- * скрипт (*js*)
-
-## `Гайд`
-
- * [YouTube](https://https://youtu.be/omcDWHgeV54?si=f_irsTbtnFEIvKw2) Новый
- * [YouTube](https://youtu.be/vpgzqO3YEDE) ~~Старый~~
+ * Поддерживает Minecraft версий 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20 и 1.21.
+ * Анти-AFK
+ * Управление через чат
+ * Автоматическое возрождение
+ * Автоматическое переподключение
+ * Графический интерфейс (GUI) (*python*)
 
 # `Установка`
 
 * Скачайте последний [Релиз](https://github.com/YTFort/24-Aternos/releases)
 
 
- * [Python](https://www.python.org) 3.X
- * Последняя версия [Node.js](https://nodejs.dev)
+ * Установите [Python](https://www.python.org) 3.X
+ * Сначала установите [Node.js](https://nodejs.dev)
 
 ```bash
-pip install configparser
 pip install javascript
-pip install tkinter
-pip install threading
-pip install os
-pip install sys
 ```
 ## Или
 
@@ -65,7 +52,7 @@ pip install sys
 pip install -r requirements.txt
 ```
 
-## И
+## И затем
 
 ```bash
 npm install mineflayer
@@ -75,44 +62,85 @@ npm install mineflayer
 
 ### Python
 
- * 1. отредактируйте config.ini
- * 2. py main.py
- * 3. используйте интерфейс
+ * 1. Отредактируйте файл config.ini
+ * 2. Запустите `py main.py`
+ * 3. Используйте графический интерфейс (GUI)
 
-##### Когда вы выключите компьютер, бот тоже выключится!
+### Файл конфигурации
+
+```ini
+[server]
+host=127.0.0.1
+port=25565
+chat=local
+
+[bot]
+name=GooDHous
+register=/login reg123 reg123
+login=/login reg123
+language=ru_RU
+
+[command]
+position=;pos
+start=;start
+stop=;stop
+```
+
+---
+
+**Секция `[server]`**
+*   **`host=`**
+    *   **Описание:** IP-адрес сервера.
+    *   **Пример:** `127.0.0.1` (локальная машина), `mc.example.com` (домен), `192.168.1.10` (локальный IP-адрес).
+
+*   **`port=`**
+    *   **Описание:** Порт сервера.
+    *   **Пример:** `25565` (стандартный порт Minecraft сервера).
+
+*   **`chat=`**
+    *   **Описание:** Необязательный параметр (по умолчанию `local`, если отсутствует). Определяет, добавлять ли префикс `!` перед командами бота в чате.
+    *   **`local`:** Используйте это, если на вашем сервере **нет** плагина, разделяющего локальный и глобальный чат. Префикс не добавляется.
+    *   **`global`:** Используйте это, если на вашем сервере **есть** такой плагин. Префикс `!` будет добавляться к сообщениям бота, чтобы отправлять их в глобальный чат.
+    *   *Этот параметр необязателен и может быть опущен или оставлен пустым.*
+
+**Секция `[bot]`**
+*   **`name=`**
+    *   **Описание:** Имя пользователя бота (никнейм/имя аккаунта minecraft).
+
+*   **`register=`**
+    *   **Описание:** Необязательный параметр. Выполняет команду регистрации при входе бота на сервер (например, `/reg password123 password123` или `/register pass123`).
+    *   *Этот параметр необязателен и может быть опущен или оставлен пустым.*
+
+*   **`login=`**
+    *   **Описание:** Необязательный параметр. Выполняет команду входа при подключении бота к серверу (например, `/login password123`).
+    *   *Этот параметр необязателен и может быть опущен или оставлен пустым.*
+
+*   **`language=`**
+    *   **Описание:** Необязательный параметр. Выбор языка интерфейса (en_US, ru_RU)
+
+**Секция `[command]`**
+*   **`position=`**
+    *   **Описание:** Команда в игре, которую бот будет слушать, чтобы сообщить свою позицию.
+    *   **Пример:** `;pos` означает, что бот отправит свои координаты, когда игрок напишет `;pos` в чате.
+
+*   **`start=`**
+    *   **Описание:** Команда в игре для запуска анти-AFK.
+    *   **Пример:** `;start`
+
+*   **`stop=`**
+    *   **Описание:** Команда в игре для остановки анти-AFK.
+    *   **Пример:** `;stop`
+
+##### При выключении компьютера бот также отключится!
 
 ![GUI](/IMG/2.png)
 
-### JS
-Запуск на вашем компьютере
-
- * Отредактируйте это в файле:
-
-```js
-host: "localhost",
-port: "25565",
-username: "24ATERNOSBOT"
-```
- * node bot.js
-
-### Запуск на хостинге (*JS*)
-Запуск на хостинге позволяет боту работать автономно
-
-* 1. выберите хостинг с поддержкой js скриптов
-* 2. отредактируйте скрипт под себя
-* 3. запустите скипт
-
-### Стандартное управление ботом через игровой чат
-
- * ;pos - позиция бота в мире (*python*)
- * ;start - включить АнтиАФК
- * ;stop - выключить АнтиАФК
-
-# `Спасибо`
+# `Благодарности`
 
 - [mineflayer](https://github.com/PrismarineJS/mineflayer)
 
-# `Поддержите меня`
+# `Поддержать меня`
 
-### Поставьте ⭐  и Fork если бот оказался вам полезен
-### [Донат 1](https://www.donationalerts.com/r/fortcotetm) / [Донат 2](https://new.donatepay.ru/@924403)
+### Поставьте ⭐ и сделайте Fork, если этот бот оказался вам полезен
+### Для поддержки просто присоединяйтесь к нашему Discord-серверу
+- [Discord](https://discord.gg/PAm52zgFAF)
