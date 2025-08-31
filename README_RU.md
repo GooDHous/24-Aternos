@@ -1,8 +1,8 @@
 
 ![Header](/IMG/1.png)
-<a href="https://github.com/GooDHous/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos" alt="GitHub stars"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos-ReWORKED/" alt="GitHub stars"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos-ReWORKED/" alt="GitHub watchers"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos-ReWORKED/" alt="GitHub forks"/></a>
 
 # `24 Aternos Reworked`
 ### Это бот, который не позволяет вашему майнкрафт серверу на хостинге [Aternos](https://aternos.org) отключаться.
@@ -37,7 +37,7 @@
 
 # `Установка`
 
-* Скачайте последний [Релиз](https://github.com/YTFort/24-Aternos/releases)
+* Скачайте последний [Релиз](https://github.com/GooDHous/24-Aternos-ReWORKED/releases/latest)
 
 
  * Установите [Python](https://www.python.org) 3.X
@@ -144,3 +144,4 @@ stop=;stop
 ### Поставьте ⭐ и сделайте Fork, если этот бот оказался вам полезен
 ### Для поддержки просто присоединяйтесь к нашему Discord-серверу
 - [Discord](https://discord.gg/PAm52zgFAF)
+
