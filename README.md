@@ -45,7 +45,6 @@
  * First install [Node.js](https://nodejs.dev)
 
 ```bash
-pip install configparser
 pip install javascript
 ```
 ## Or
@@ -68,28 +67,13 @@ npm install mineflayer
  * 2. py main.py
  * 3. use GUI
 
+### Config.ini
+
+
+
 ##### When you turn off the computer, the bot will also turn off!
 
 ![GUI](/IMG/2.png)
-
-### JS
-Running on your computer
-
- * File needs to be edited:
-
-```js
-host: "localhost",
-port: "25565",
-username: "24ATERNOSBOT"
-```
- * node bot.js
-
-### Launch on hosting (*JS*)
-Running on a hosting allows the bot to work autonomously
-
-* 1. сhoosing a hosting with support for js scripts
-* 2. editing the script for yoursel
-* 3. run the script
 
 ### Standard bot management via game chat
 
@@ -105,4 +89,5 @@ Running on a hosting allows the bot to work autonomously
 
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### [Donate 1](https://www.donationalerts.com/r/fortcotetm) / [Donate 2](https://new.donatepay.ru/@924403)
+
 
