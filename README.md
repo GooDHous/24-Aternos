@@ -3,7 +3,7 @@
 <a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
 <a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
 <a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/assets-dl/GooDHous/24-Aternos" alt="GitHub download"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/assets-dl/GooDHous/24-Aternos/24-Aternos" alt="GitHub download"/></a>
+
 # `24 Aternos Reworked`
 ### This is a bot that does not allow your minecraft server to shut down on the [Aternos](https://aternos.org) hosting.
 ##### The bot is fully configurable, controlled in a game chat on the server.
@@ -147,6 +147,7 @@ stop=;stop
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### For support me just join our discord server
 - [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
 
