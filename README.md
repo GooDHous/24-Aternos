@@ -4,14 +4,13 @@
 <a href="https://github.com/YTFort/24-Aternos"><img src="https://badgen.net/github/forks/YTFort/24-Aternos" alt="GitHub forks"/></a>
 <a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos" alt="GitHub download"/></a>
 <a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos/24-Aternos" alt="GitHub download"/></a>
-# `24 Aternos`
+# `24 Aternos Reworked`
 ### This is a bot that does not allow your minecraft server to shut down on the [Aternos](https://aternos.org) hosting.
-##### The bot is fully configurable, controlled in a game chat on the server, has 2 versions for your needs.
+##### The bot is fully configurable, controlled in a game chat on the server.
 
 ## `creator's contacts`
-- [Discord](https://discord.gg/bjgpVAxgyE)
-- [Youtube](https://youtube.com/c/fortcote)
-- [Telegram](https://t.me/FortcoteTG)
+- [Discord](https://discord.gg/PAm52zgFAF)
+
 
 ## `translations`
 | <sub>EN</sub> [English](README.md) | <sub>RU</sub> [Русский](README_RU.md) |
@@ -30,18 +29,12 @@
 
 ## `Features`
 
- * Supports Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19 and 1.20.
+ * Supports Minecraft 1.8, 1.9, 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20 and 1.21.
  * Anti-AFK
  * chat control
  * auto respawn
  * auto reconect
  * GUI (*python*)
- * script version (*js*)
-
-## `Help video`
-
- * [YouTube](https://youtu.be/omcDWHgeV54?si=f_irsTbtnFEIvKw2) NEW
- * [YouTube](https://youtu.be/vpgzqO3YEDE) ~~OLD~~
 
 # `Installation`
 
@@ -54,10 +47,6 @@
 ```bash
 pip install configparser
 pip install javascript
-pip install tkinter
-pip install threading
-pip install os
-pip install sys
 ```
 ## Or
 
@@ -116,3 +105,4 @@ Running on a hosting allows the bot to work autonomously
 
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### [Donate 1](https://www.donationalerts.com/r/fortcotetm) / [Donate 2](https://new.donatepay.ru/@924403)
+
