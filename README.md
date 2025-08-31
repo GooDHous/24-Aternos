@@ -2,7 +2,6 @@
 <a href="https://github.com/GooDHous/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos" alt="GitHub stars"/></a>
 <a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
 <a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/assets-dl/GooDHous/24-Aternos" alt="GitHub download"/></a>
 
 # `24 Aternos Reworked`
 ### This is a bot that does not allow your minecraft server to shut down on the [Aternos](https://aternos.org) hosting.
@@ -79,6 +78,7 @@ chat=local
 name=GooDHous
 register=/login reg123 reg123
 login=/login reg123
+language=en_EN
 
 [command]
 position=;pos
@@ -115,6 +115,9 @@ stop=;stop
     *   **Description:** An optional parameter. Executes a login command when the bot joins the server (e.g., `/login password123`).
     *   *This parameter is optional and can be omitted or left empty.*
 
+*   **`language=`**
+    *   **Description:** An optional parameter. Select ui language (en_US, ru_RU)  
+
 **`[command]` Section**
 *   **`position=`**
     *   **Description:** The in-game command the bot will listen for to trigger its "get position" function.
@@ -147,6 +150,7 @@ stop=;stop
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### For support me just join our discord server
 - [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
 
