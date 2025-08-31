@@ -1,9 +1,9 @@
 ![Header](/IMG/1.png)
-<a href="https://github.com/YTFort/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/YTFort/24-Aternos" alt="GitHub stars"/></a>
-<a href="https://github.com/YTFort/24-Aternos"><img src="https://badgen.net/github/watchers/YTFort/24-Aternos" alt="GitHub watchers"/></a>
-<a href="https://github.com/YTFort/24-Aternos"><img src="https://badgen.net/github/forks/YTFort/24-Aternos" alt="GitHub forks"/></a>
-<a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos" alt="GitHub download"/></a>
-<a href="https://github.com/YTFort/24-Aternos/releases"><img src="https://badgen.net/github/assets-dl/YTFort/24-Aternos/24-Aternos" alt="GitHub download"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos" alt="GitHub stars"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/assets-dl/GooDHous/24-Aternos" alt="GitHub download"/></a>
+<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/assets-dl/GooDHous/24-Aternos/24-Aternos" alt="GitHub download"/></a>
 # `24 Aternos Reworked`
 ### This is a bot that does not allow your minecraft server to shut down on the [Aternos](https://aternos.org) hosting.
 ##### The bot is fully configurable, controlled in a game chat on the server.
@@ -67,9 +67,66 @@ npm install mineflayer
  * 2. py main.py
  * 3. use GUI
 
-### Config.ini
+### Configuration File
 
+```ini
+[server]
+host=127.0.0.1
+port=25565
+chat=local
 
+[bot]
+name=GooDHous
+register=/login reg123 reg123
+login=/login reg123
+
+[command]
+position=;pos
+start=;start
+stop=;stop
+```
+
+---
+
+**`[server]` Section**
+*   **`host=`**
+    *   **Description:** The IP address of the server.
+    *   **Example:** `127.0.0.1` (local machine), `mc.example.com` (domain), `192.168.1.10` (local network IP).
+
+*   **`port=`**
+    *   **Description:** The port of the server.
+    *   **Example:** `25565` (default Minecraft server port).
+
+*   **`chat=`**
+    *   **Description:** An optional parameter (defaults to `local` if missing). Determines whether to add a `!` prefix before the bot's chat commands.
+    *   **`local`:** Use this if your server does **not** have a plugin that separates local and global chat . No prefix is added.
+    *   **`global`:** Use this if your server **has** such a plugin. The prefix `!` will be added before the bot's messages to send them to the global chat.
+    *   *This parameter is optional and can be omitted or left empty.*
+
+**`[bot]` Section**
+*   **`name=`**
+    *   **Description:** The bot's username (nickname/minecraft account name).
+
+*   **`register=`**
+    *   **Description:** An optional parameter. Executes a registration command when the bot joins the server (e.g., `/reg password123 password123` or `/register pass123`).
+    *   *This parameter is optional and can be omitted or left empty.*
+
+*   **`login=`**
+    *   **Description:** An optional parameter. Executes a login command when the bot joins the server (e.g., `/login password123`).
+    *   *This parameter is optional and can be omitted or left empty.*
+
+**`[command]` Section**
+*   **`position=`**
+    *   **Description:** The in-game command the bot will listen for to trigger its "get position" function.
+    *   **Example:** `;pos` means the bot will react when a player types `;pos` in chat.
+
+*   **`start=`**
+    *   **Description:** The in-game command to start the anti afk.
+    *   **Example:** `;start`
+
+*   **`stop=`**
+    *   **Description:** The in-game command to stop the anti afk.
+    *   **Example:** `;stop`
 
 ##### When you turn off the computer, the bot will also turn off!
 
@@ -88,6 +145,8 @@ npm install mineflayer
 # `Support me`
 
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
-### [Donate 1](https://www.donationalerts.com/r/fortcotetm) / [Donate 2](https://new.donatepay.ru/@924403)
+### For support me just join our discord server
+- [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
