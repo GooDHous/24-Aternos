@@ -78,7 +78,7 @@ chat=local
 name=GooDHous
 register=/login reg123 reg123
 login=/login reg123
-language=en_EN
+language=en_US
 
 [command]
 position=;pos
@@ -150,6 +150,7 @@ stop=;stop
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### For support me just join our discord server
 - [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
 
