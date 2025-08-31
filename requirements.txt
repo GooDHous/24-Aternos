@@ -1,6 +1,2 @@
-configparser
 javascript
-tkinter
-threading
-os
-sys
+
