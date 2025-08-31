@@ -133,7 +133,7 @@ stop=;stop
 
 ##### When you turn off the computer, the bot will also turn off!
 
-![GUI](/IMG/2.png)
+![GUI](/IMG/3.png)
 
 ### Standard bot management via game chat
 
@@ -150,6 +150,7 @@ stop=;stop
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### For support me just join our discord server
 - [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
 
