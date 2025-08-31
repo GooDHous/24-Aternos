@@ -1,7 +1,7 @@
 ![Header](/IMG/1.png)
-<a href="https://github.com/GooDHous/24-Aternos/stargazers"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos" alt="GitHub stars"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos" alt="GitHub watchers"/></a>
-<a href="https://github.com/GooDHous/24-Aternos/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos" alt="GitHub forks"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/"><img src="https://badgen.net/github/stars/GooDHous/24-Aternos-ReWORKED/" alt="GitHub stars"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/"><img src="https://badgen.net/github/watchers/GooDHous/24-Aternos-ReWORKED/" alt="GitHub watchers"/></a>
+<a href="https://github.com/GooDHous/24-Aternos-ReWORKED/"><img src="https://badgen.net/github/forks/GooDHous/24-Aternos-ReWORKED/s" alt="GitHub forks"/></a>
 
 # `24 Aternos Reworked`
 ### This is a bot that does not allow your minecraft server to shut down on the [Aternos](https://aternos.org) hosting.
@@ -37,7 +37,7 @@
 
 # `Installation`
 
-* Download last [Release](https://github.com/YTFort/24-Aternos/releases)
+* Download last [Release](https://github.com/GooDHous/24-Aternos-ReWORKED/releases/latest)
 
 
  * [Python](https://www.python.org) 3.X
@@ -150,6 +150,7 @@ stop=;stop
 ### Put a ⭐ and Fork if this bot turned out to be useful to you
 ### For support me just join our discord server
 - [Discord](https://discord.gg/PAm52zgFAF)
+
 
 
 
